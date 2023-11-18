@@ -1,5 +1,10 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import sufar from "./sufar.png";
+import movieland from "./movieland.png";
+import todo from "./todo.png";
+import ecommerce from "./ecommerce.png";
+
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -36,6 +41,10 @@ import maaz from "../assets/maaz.svg";
 export {
   maaz,
   logo,
+  sufar,
+  movieland,
+  todo,
+  ecommerce,
   backend,
   creator,
   mobile,

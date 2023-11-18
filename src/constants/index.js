@@ -21,10 +21,14 @@ import {
   aurlab,
   tesla,
   shopify,
+  sufar,
+  movieland,
   carrent,
   jobit,
   tripguide,
   threejs,
+  todo,
+  ecommerce,
 } from "../assets";
 
 export const navLinks = [
@@ -201,7 +205,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sufar,
     source_code_link: "https://github.com/maazmuhammad713/SUFAR",
   },
   {
@@ -230,7 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: movieland,
     source_code_link: "https://github.com/maazmuhammad713/Movie_Land",
   },
   {
@@ -251,7 +255,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: todo,
     source_code_link: "https://github.com/maazmuhammad713/Note-Taking-App",
   },
   {
@@ -284,7 +288,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ecommerce,
     source_code_link: "https://github.com/maazmuhammad713/LMS-Sequelize",
   },
   {
@@ -317,7 +321,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ecommerce,
     source_code_link: "https://github.com/maazmuhammad713/E-Commerce-ExpressJS",
   },
 ];
