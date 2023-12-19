@@ -36,10 +36,8 @@ import aurlab from "./company/aurlab.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import maaz from "../assets/maaz.svg";
 
 export {
-  maaz,
   logo,
   sufar,
   movieland,

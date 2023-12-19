@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import { Helmet } from "react-helmet";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -13,6 +13,17 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
+        <Helmet>
+          <title>Maaz Ghazanfar - Web Developer</title>
+          <meta
+            name="description"
+            content="Hi, I'm Maaz Ghazanfar, a web developer creating awesome applications."
+          />
+          <meta
+            name="keywords"
+            content="web developer, web applications, Maaz Ghazanfar"
+          />
+        </Helmet>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>

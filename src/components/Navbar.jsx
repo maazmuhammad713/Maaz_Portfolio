@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { Helmet } from "react-helmet";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,9 +43,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
+          <Helmet>
+            <title>Maaz Ghazanfar - A deadPan</title>
+            <meta name="description" content="Maaz Ghazanfar" />
+          </Helmet>
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Maaz Ghazanfar&nbsp;
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            <a href="/" className="text-white no-underline" title="Go to Home">
+              Maaz Ghazanfar
+            </a>
           </p>
         </Link>
 
