@@ -18,6 +18,7 @@ import {
   meta,
   starbucks,
   knowledgestreams,
+  CrossDevLogix,
   aurlab,
   tesla,
   shopify,
@@ -121,6 +122,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "NEXTJS Intern",
+    company_name: "CrossDevLogix",
+    icon: CrossDevLogix,
+    iconBg: "#ffffff",
+    date: "January 2023 - Present",
+    points: [
+      "Gaining hands-on experience with NEXTJS through the execution of real-world projects.",
+      "Collaborating with senior colleagues to identify solutions for various challenges.",
+    ],
+  },
   {
     title: "MERN Stack Trainee",
     company_name: "Knowledge Streams",
